@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 12px;
+  font-family: "Kumbh Sans", sans-serif;
+  background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+}
+
+ul li {
+  list-style: none;
+}
+
+.center {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 90vh;
+  border: 1px solid black;
+  max-width: 920px;
+  margin: 0 auto;
+  margin-top: 25px;
+  background-image: url(./images/bg-pattern-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 840px;
+  background-position: -490px -243px;
+  border-radius: 25px;
+  background-color: white;
+}
+
+.faq {
+  width: 40%;
+}
+.faq .faq-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transform: translateX(-50px);
+}
+.faq .faq-pre:hover {
+  color: hsl(14, 88%, 65%);
+  cursor: pointer;
+}
+.faq .faq-pre.black {
+  font-weight: bold;
+}
+.faq .resp {
+  display: none;
+}
+.faq .resp.text {
+  display: inline;
+}
+.faq .svg.rotate {
+  transform: rotate(180deg);
+}
+.faq h1 {
+  padding-bottom: 35px;
+  font-weight: 900;
+  font-size: 3em;
+  font-family: "Kumbh Sans", sans-serif;
+}
+.faq li {
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(201, 201, 201, 0.765);
+  font-size: 1.3em;
+  padding-top: 12PX;
+  padding-right: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 15px;
+}
+.faq .mini-fondo {
+  position: absolute;
+  right: 125px;
+  top: 20px;
+}
+.faq .women {
+  position: absolute;
+  left: 130px;
+  bottom: 160px;
+}
+.faq .box {
+  position: absolute;
+  left: 100px;
+  bottom: 180px;
+}
+
+/*# sourceMappingURL=style.css.map */
